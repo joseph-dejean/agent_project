@@ -163,19 +163,6 @@ pip install -r requirements.txt --upgrade
 ### Langfuse Connection
 If Langfuse keys are not configured, the system will work without observability. No errors will occur.
 
-## 📊 Evaluation Criteria
-
-This implementation meets all project requirements:
-
-- ✅ **Multi-agent architecture**: 6 specialized agents
-- ✅ **Dynamic routing**: 3 routing functions
-- ✅ **Vector DB retrieval**: ChromaDB with citations
-- ✅ **External search**: DuckDuckGo integration
-- ✅ **Human-in-the-loop**: Interrupt/resume with editing
-- ✅ **Persistence**: SqliteSaver with session recovery
-- ✅ **Langfuse monitoring**: Complete tracing and spans
-- ✅ **Extensibility**: Modular design, easy to extend
-
 ## 🧪 Testing
 
 Run the demo to test the system:
